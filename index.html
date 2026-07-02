@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body bgcolor="pink" >
+     <h1 align="center">Student Registration Form</h1>
+    <form action="">
+        Student Name:<input type="text" name="finame" placeholder="first name">  <input type="text" name="lname" placeholder="last name"><br>
+        Roll:<input type="number" name="roll" placeholder="roll"><br>
+        Father's Name:<input type="text" name="faname" placeholder="father's name"><br>
+        Mother's Name:<input type="text" name="mname" placeholder="mother's name"><br>
+        Date of Birth:<input type="date" name="date" ><br>
+        Mobile No:<input type="tel" name="phone" placeholder="11 digit number"><br>
+        Email:<input type="email" name="email" placeholder="email"><br>
+        Password:<input type="Password" name="pass" placeholder="input strong password"><br>
+        Gender: <input type="radio"  name="gender" value="male"> Male 
+                <input type="radio"  name="gender" value="female"> Female <br>
+        Department:<input type="checkbox" name="cse">CSE <input type="checkbox" name="ict">ICT <input type="checkbox" name="architecture"> Architechture 
+        <input type="checkbox" name="eee">EEE  <br>
+        Session: <select name="session" id="session" >
+                <option>Select your session</option>
+                <option value="1st">2020-2021</option>
+                <option value="2nd">2021-2022</option>
+                <option value="3rd">2022-2023</option>
+                <option value="4th">2023-2024</option>
+                <option value="5th">2024-2025</option>
+
+                </select><br>
+        Upload Photo:<input type="file" name="photo" accept="image/*"><br>
+        City:<input type="text" name="city"><br>
+        Address: <br><textarea name="address" rows="10" cols="10" placeholder=" Your address here"></textarea><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
